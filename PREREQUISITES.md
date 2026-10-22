@@ -172,8 +172,8 @@ $ docker run --rm hello-world
 ## 3. Get the code
 
 ```bash
-$ git clone https://github.com/anuchito/course-playwright.git
-$ cd course-playwright/qoomlee
+$ git clone https://github.com/AnuchitO/sphere.academy.playwright.git
+$ cd sphere.academy.playwright/qoomlee
 $ git checkout demo
 ```
 
@@ -190,7 +190,7 @@ The real `.env` files are git-ignored, so your keys never get committed.
 
 ### 4.1 Backend: `qoomlee/.env` (holds your Omise keys)
 
-From inside `course-playwright/qoomlee`:
+From inside `sphere.academy.playwright/qoomlee`:
 
 ```bash
 # macOS / Linux / WSL / Git Bash
@@ -256,7 +256,7 @@ shows four lines starting `NEXT_PUBLIC_`.
 
 ## 5. Final check
 
-Run these from `course-playwright/qoomlee`. Each one has an expected result.
+Run these from `sphere.academy.playwright/qoomlee`. Each one has an expected result.
 
 ### 5.1 Install web dependencies
 
@@ -301,7 +301,7 @@ $ make status
 In a **second** terminal:
 
 ```bash
-$ cd course-playwright/qoomlee
+$ cd sphere.academy.playwright/qoomlee
 $ make web
 ```
 
